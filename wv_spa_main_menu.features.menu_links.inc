@@ -10,6 +10,27 @@
 function wv_spa_main_menu_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_ablacin:<front>.
+  $menu_links['main-menu_ablacin:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Ablación',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_ablacin:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_hazte-socio:<front>',
+  );
   // Exported menu link: main-menu_actualidad:<front>.
   $menu_links['main-menu_actualidad:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -30,6 +51,69 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'expanded' => 1,
     'weight' => -45,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_apadrina-a-un-nio:apadrina-ahora.
+  $menu_links['main-menu_apadrina-a-un-nio:apadrina-ahora'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'apadrina-ahora',
+    'router_path' => 'apadrina-ahora',
+    'link_title' => 'Apadrina a un niño',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_apadrina-a-un-nio:apadrina-ahora',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_colabora:<front>',
+  );
+  // Exported menu link: main-menu_apadrina-un-proyecto:<front>.
+  $menu_links['main-menu_apadrina-un-proyecto:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Apadrina un proyecto',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_apadrina-un-proyecto:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_colabora:<front>',
+  );
+  // Exported menu link: main-menu_apadrina-una-causa:<front>.
+  $menu_links['main-menu_apadrina-una-causa:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Apadrina una causa',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_apadrina-una-causa:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => -46,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_colabora:<front>',
   );
   // Exported menu link: main-menu_apadrina:<front>.
   $menu_links['main-menu_apadrina:<front>'] = array(
@@ -52,27 +136,48 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_apadrinar-a-un-nio-ahora:<front>.
-  $menu_links['main-menu_apadrinar-a-un-nio-ahora:<front>'] = array(
+  // Exported menu link: main-menu_apadrinar-a-un-nio-ahora:apadrina-ahora.
+  $menu_links['main-menu_apadrinar-a-un-nio-ahora:apadrina-ahora'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'apadrina-ahora',
+    'router_path' => 'apadrina-ahora',
     'link_title' => 'Apadrinar a un niño ahora',
     'options' => array(
       'devel' => TRUE,
       'attributes' => array(
         'title' => 'Description of slewas.',
       ),
-      'identifier' => 'main-menu_apadrinar-a-un-nio-ahora:<front>',
+      'identifier' => 'main-menu_apadrinar-a-un-nio-ahora:apadrina-ahora',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_apadrina:<front>',
+  );
+  // Exported menu link: main-menu_ayuda-en-emergencia:<front>.
+  $menu_links['main-menu_ayuda-en-emergencia:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Ayuda en emergencia',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_ayuda-en-emergencia:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_colabora:<front>',
   );
   // Exported menu link: main-menu_campaas:<front>.
   $menu_links['main-menu_campaas:<front>'] = array(
@@ -133,8 +238,8 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
     'weight' => -46,
     'customized' => 1,
   );
@@ -202,6 +307,45 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
     'parent_identifier' => 'main-menu_concenos:<front>',
+  );
+  // Exported menu link: main-menu_equipos-en-la-calle:node/1041.
+  $menu_links['main-menu_equipos-en-la-calle:node/1041'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/1041',
+    'router_path' => 'node/%',
+    'link_title' => 'Equipos en la calle',
+    'options' => array(
+      'identifier' => 'main-menu_equipos-en-la-calle:node/1041',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'main-menu_concenos:<front>',
+  );
+  // Exported menu link: main-menu_hazte-socio:<front>.
+  $menu_links['main-menu_hazte-socio:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Hazte socio',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_hazte-socio:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_colabora:<front>',
   );
   // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
@@ -305,6 +449,27 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_proyecto-espaa:<front>.
+  $menu_links['main-menu_proyecto-espaa:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Proyecto España',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_proyecto-espaa:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 1,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_colabora:<front>',
+  );
   // Exported menu link: main-menu_quiero-ser-mayor:http://dona.worldvision.es/stopablacion/.
   $menu_links['main-menu_quiero-ser-mayor:http://dona.worldvision.es/stopablacion/'] = array(
     'menu_name' => 'main-menu',
@@ -326,6 +491,27 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_campaas:<front>',
   );
+  // Exported menu link: main-menu_salud-materno-infantil:<front>.
+  $menu_links['main-menu_salud-materno-infantil:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Salud materno-infantil',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'main-menu_salud-materno-infantil:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_hazte-socio:<front>',
+  );
   // Exported menu link: main-menu_sobre-nosotros:node/1046.
   $menu_links['main-menu_sobre-nosotros:node/1046'] = array(
     'menu_name' => 'main-menu',
@@ -334,6 +520,9 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'link_title' => 'Sobre nosotros',
     'options' => array(
       'identifier' => 'main-menu_sobre-nosotros:node/1046',
+      'attributes' => array(
+        'title' => '',
+      ),
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -430,21 +619,30 @@ function wv_spa_main_menu_menu_default_menu_links() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Ablación');
   t('Actualidad');
   t('Apadrina');
+  t('Apadrina a un niño');
+  t('Apadrina un proyecto');
+  t('Apadrina una causa');
   t('Apadrinar a un niño ahora');
+  t('Ayuda en emergencia');
   t('Campañas');
   t('Colabora');
   t('Conócenos');
   t('Cómo funciona el apadrinamiento?');
   t('Dónde va tu dinero?');
   t('Equipo');
+  t('Equipos en la calle');
+  t('Hazte socio');
   t('Home');
   t('Ir al blog');
   t('Los Padrinos');
   t('Nuestro trabajo');
   t('Nuestros proyectos');
+  t('Proyecto España');
   t('Quiero ser mayor');
+  t('Salud materno-infantil');
   t('Sobre nosotros');
   t('Solicita información sobre el apadrinamiento');
   t('Stop Ablación');
