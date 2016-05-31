@@ -10,17 +10,20 @@
 function wv_spa_main_menu_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_ablacin:<front>.
-  $menu_links['main-menu_ablacin:<front>'] = array(
+  // Exported menu link: main-menu_ablacin:http://www.worldvision.es/donaciones-colaborar-ong/ablacion-tu-informacion.
+  $menu_links['main-menu_ablacin:http://www.worldvision.es/donaciones-colaborar-ong/ablacion-tu-informacion'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
+    'link_path' => 'http://www.worldvision.es/donaciones-colaborar-ong/ablacion-tu-informacion',
     'router_path' => '',
     'link_title' => 'Ablación',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
+      'identifier' => 'main-menu_ablacin:http://www.worldvision.es/donaciones-colaborar-ong/ablacion-tu-informacion',
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
       ),
-      'identifier' => 'main-menu_ablacin:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -62,9 +65,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Agua y saneamiento en Ghana',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_agua-y-saneamiento-en-ghana:<front>',
     ),
     'module' => 'menu',
@@ -83,9 +84,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'router_path' => 'apadrina-ahora',
     'link_title' => 'Apadrina a un niño',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_apadrina-a-un-nio:apadrina-ahora',
     ),
     'module' => 'menu',
@@ -115,7 +114,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 1,
-    'has_children' => 1,
+    'has_children' => 0,
     'expanded' => 1,
     'weight' => -48,
     'customized' => 1,
@@ -242,30 +241,6 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_actualidad:http:/#',
   );
-  // Exported menu link: main-menu_bolivia:node/1249.
-  $menu_links['main-menu_bolivia:node/1249'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1249',
-    'router_path' => 'node/%',
-    'link_title' => 'Bolivia',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_bolivia:node/1249',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_apadrina-un-proyecto:http:/#',
-  );
   // Exported menu link: main-menu_campaas:http:/#.
   $menu_links['main-menu_campaas:http:/#'] = array(
     'menu_name' => 'main-menu',
@@ -290,20 +265,20 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_carlos-sobera:<front>.
-  $menu_links['main-menu_carlos-sobera:<front>'] = array(
+  // Exported menu link: main-menu_carlos-sobera:http://carlossoberaenafrica.es/.
+  $menu_links['main-menu_carlos-sobera:http://carlossoberaenafrica.es/'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
+    'link_path' => 'http://carlossoberaenafrica.es/',
     'router_path' => '',
     'link_title' => 'Carlos Sobera',
     'options' => array(
+      'identifier' => 'main-menu_carlos-sobera:http://carlossoberaenafrica.es/',
       'attributes' => array(),
       'item_attributes' => array(
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_carlos-sobera:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -314,15 +289,15 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_blogs-colaboradores:http:/#',
   );
-  // Exported menu link: main-menu_cmo-funciona-el-apadrinamiento:node/1040.
-  $menu_links['main-menu_cmo-funciona-el-apadrinamiento:node/1040'] = array(
+  // Exported menu link: main-menu_colabora:http:/#.
+  $menu_links['main-menu_colabora:http:/#'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/1040',
-    'router_path' => 'node/%',
-    'link_title' => 'Cómo funciona el apadrinamiento?',
+    'link_path' => 'http:/#',
+    'router_path' => '',
+    'link_title' => 'Colabora',
     'options' => array(
       'devel' => TRUE,
-      'identifier' => 'main-menu_cmo-funciona-el-apadrinamiento:node/1040',
+      'identifier' => 'main-menu_colabora:http:/#',
       'attributes' => array(),
       'item_attributes' => array(
         'id' => '',
@@ -332,17 +307,16 @@ function wv_spa_main_menu_menu_default_menu_links() {
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -46,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_apadrina:http:/#',
   );
-  // Exported menu link: main-menu_colabora:<front>.
-  $menu_links['main-menu_colabora:<front>'] = array(
+  // Exported menu link: main-menu_colabora:http://dona.worldvision.es/quierosermayor/#colabora.
+  $menu_links['main-menu_colabora:http://dona.worldvision.es/quierosermayor/#colabora'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
+    'link_path' => 'http://dona.worldvision.es/quierosermayor/#colabora',
     'router_path' => '',
     'link_title' => 'Colabora',
     'options' => array(
@@ -352,7 +326,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_colabora:<front>',
+      'identifier' => 'main-menu_colabora:http://dona.worldvision.es/quierosermayor/#colabora',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -361,7 +335,31 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_stop-ablacin:http:/#',
+    'parent_identifier' => 'main-menu_quiero-ser-mayor:http:/#',
+  );
+  // Exported menu link: main-menu_colabora:https://www.worldvision.es/los-padrinos/apadrinar-un-nino/ninos.
+  $menu_links['main-menu_colabora:https://www.worldvision.es/los-padrinos/apadrinar-un-nino/ninos'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'https://www.worldvision.es/los-padrinos/apadrinar-un-nino/ninos',
+    'router_path' => '',
+    'link_title' => 'Colabora',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_colabora:https://www.worldvision.es/los-padrinos/apadrinar-un-nino/ninos',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_los-padrinos:http:/#',
   );
   // Exported menu link: main-menu_concenos:http:/#.
   $menu_links['main-menu_concenos:http:/#'] = array(
@@ -382,25 +380,25 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 1,
-    'has_children' => 1,
+    'has_children' => 0,
     'expanded' => 1,
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_conoce-ms:<front>.
-  $menu_links['main-menu_conoce-ms:<front>'] = array(
+  // Exported menu link: main-menu_conoce-ms:http://dona.worldvision.es/stopablacion/habla/.
+  $menu_links['main-menu_conoce-ms:http://dona.worldvision.es/stopablacion/habla/'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
+    'link_path' => 'http://dona.worldvision.es/stopablacion/habla/',
     'router_path' => '',
     'link_title' => 'Conoce más',
     'options' => array(
+      'identifier' => 'main-menu_conoce-ms:http://dona.worldvision.es/stopablacion/habla/',
       'attributes' => array(),
       'item_attributes' => array(
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_conoce-ms:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -411,6 +409,54 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_stop-ablacin:http:/#',
   );
+  // Exported menu link: main-menu_conoce-ms:https://dona.worldvision.es/quierosermayor/.
+  $menu_links['main-menu_conoce-ms:https://dona.worldvision.es/quierosermayor/'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'https://dona.worldvision.es/quierosermayor/',
+    'router_path' => '',
+    'link_title' => 'Conoce más',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_conoce-ms:https://dona.worldvision.es/quierosermayor/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_quiero-ser-mayor:http:/#',
+  );
+  // Exported menu link: main-menu_conoce-ms:https://www.worldvision.es/los-padrinos/somos.
+  $menu_links['main-menu_conoce-ms:https://www.worldvision.es/los-padrinos/somos'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'https://www.worldvision.es/los-padrinos/somos',
+    'router_path' => '',
+    'link_title' => 'Conoce más',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_conoce-ms:https://www.worldvision.es/los-padrinos/somos',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_los-padrinos:http:/#',
+  );
   // Exported menu link: main-menu_crisis-pueblo-sirio:<front>.
   $menu_links['main-menu_crisis-pueblo-sirio:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -418,9 +464,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Crisis pueblo Sirio',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_crisis-pueblo-sirio:<front>',
     ),
     'module' => 'menu',
@@ -432,42 +476,20 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_ayuda-en-emergencia:http:/#',
   );
-  // Exported menu link: main-menu_dnde-va-tu-dinero:node/1044.
-  $menu_links['main-menu_dnde-va-tu-dinero:node/1044'] = array(
+  // Exported menu link: main-menu_dona-material:http://www.worldvision.es/donaciones-colaborar-ong/ayuda-material-para-familias-en-espana.
+  $menu_links['main-menu_dona-material:http://www.worldvision.es/donaciones-colaborar-ong/ayuda-material-para-familias-en-espana'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/1044',
-    'router_path' => 'node/%',
-    'link_title' => 'Dónde va tu dinero?',
+    'link_path' => 'http://www.worldvision.es/donaciones-colaborar-ong/ayuda-material-para-familias-en-espana',
+    'router_path' => '',
+    'link_title' => 'Dona material',
     'options' => array(
-      'devel' => TRUE,
-      'identifier' => 'main-menu_dnde-va-tu-dinero:node/1044',
+      'identifier' => 'main-menu_dona-material:http://www.worldvision.es/donaciones-colaborar-ong/ayuda-material-para-familias-en-espana',
       'attributes' => array(),
       'item_attributes' => array(
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_concenos:http:/#',
-  );
-  // Exported menu link: main-menu_dona-material:<front>.
-  $menu_links['main-menu_dona-material:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Dona material',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'main-menu_dona-material:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -478,17 +500,20 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_proyecto-espaa:http:/#',
   );
-  // Exported menu link: main-menu_dona:<front>.
-  $menu_links['main-menu_dona:<front>'] = array(
+  // Exported menu link: main-menu_dona:http://www.worldvision.es/donaciones-colaborar-ong/ayuda-para-familias-en-espana-tus-datos.
+  $menu_links['main-menu_dona:http://www.worldvision.es/donaciones-colaborar-ong/ayuda-para-familias-en-espana-tus-datos'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
+    'link_path' => 'http://www.worldvision.es/donaciones-colaborar-ong/ayuda-para-familias-en-espana-tus-datos',
     'router_path' => '',
     'link_title' => 'Dona',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
+      'identifier' => 'main-menu_dona:http://www.worldvision.es/donaciones-colaborar-ong/ayuda-para-familias-en-espana-tus-datos',
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
       ),
-      'identifier' => 'main-menu_dona:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -499,141 +524,29 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_proyecto-espaa:http:/#',
   );
-  // Exported menu link: main-menu_equipo:node/1043.
-  $menu_links['main-menu_equipo:node/1043'] = array(
+  // Exported menu link: main-menu_hazte-socio:http:/#.
+  $menu_links['main-menu_hazte-socio:http:/#'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/1043',
-    'router_path' => 'node/%',
-    'link_title' => 'Equipo',
-    'options' => array(
-      'devel' => TRUE,
-      'identifier' => 'main-menu_equipo:node/1043',
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_concenos:http:/#',
-  );
-  // Exported menu link: main-menu_equipos-en-la-calle:node/1041.
-  $menu_links['main-menu_equipos-en-la-calle:node/1041'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1041',
-    'router_path' => 'node/%',
-    'link_title' => 'Equipos en la calle',
-    'options' => array(
-      'identifier' => 'main-menu_equipos-en-la-calle:node/1041',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 0,
-    'parent_identifier' => 'main-menu_concenos:http:/#',
-  );
-  // Exported menu link: main-menu_espaa:node/1251.
-  $menu_links['main-menu_espaa:node/1251'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1251',
-    'router_path' => 'node/%',
-    'link_title' => 'España',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_espaa:node/1251',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -45,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_nuestros-proyectos:http:/#',
-  );
-  // Exported menu link: main-menu_ghana:node/1248.
-  $menu_links['main-menu_ghana:node/1248'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1248',
-    'router_path' => 'node/%',
-    'link_title' => 'Ghana',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_ghana:node/1248',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_apadrina-un-proyecto:http:/#',
-  );
-  // Exported menu link: main-menu_guatemala:node/1250.
-  $menu_links['main-menu_guatemala:node/1250'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1250',
-    'router_path' => 'node/%',
-    'link_title' => 'Guatemala',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_guatemala:node/1250',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_apadrina-un-proyecto:http:/#',
-  );
-  // Exported menu link: main-menu_hazte-socio:<front>.
-  $menu_links['main-menu_hazte-socio:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
+    'link_path' => 'http:/#',
     'router_path' => '',
     'link_title' => 'Hazte socio',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
+      'identifier' => 'main-menu_hazte-socio:http:/#',
+      'attributes' => array(),
+      'item_attributes' => array(
+        'id' => '',
+        'class' => '',
+        'style' => '',
       ),
-      'identifier' => 'main-menu_hazte-socio:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_proyecto-espaa:http:/#',
+    'parent_identifier' => 'main-menu_colabora:http:/#',
   );
   // Exported menu link: main-menu_home:<front>.
   $menu_links['main-menu_home:<front>'] = array(
@@ -724,55 +637,6 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_actualidad:http:/#',
   );
-  // Exported menu link: main-menu_mali:node/1247.
-  $menu_links['main-menu_mali:node/1247'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1247',
-    'router_path' => 'node/%',
-    'link_title' => 'Mali',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_mali:node/1247',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_apadrina-un-proyecto:http:/#',
-  );
-  // Exported menu link: main-menu_nuestro-trabajo:node/1045.
-  $menu_links['main-menu_nuestro-trabajo:node/1045'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1045',
-    'router_path' => 'node/%',
-    'link_title' => 'Nuestro trabajo',
-    'options' => array(
-      'devel' => TRUE,
-      'identifier' => 'main-menu_nuestro-trabajo:node/1045',
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_concenos:http:/#',
-  );
   // Exported menu link: main-menu_nuestros-proyectos:http:/#.
   $menu_links['main-menu_nuestros-proyectos:http:/#'] = array(
     'menu_name' => 'main-menu',
@@ -792,7 +656,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'module' => 'menu',
     'hidden' => 0,
     'external' => 1,
-    'has_children' => 1,
+    'has_children' => 0,
     'expanded' => 1,
     'weight' => -47,
     'customized' => 1,
@@ -845,20 +709,20 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_campaas:http:/#',
   );
-  // Exported menu link: main-menu_rosana-guiza:<front>.
-  $menu_links['main-menu_rosana-guiza:<front>'] = array(
+  // Exported menu link: main-menu_rosana-guiza:http://rosanaenafrica.es/.
+  $menu_links['main-menu_rosana-guiza:http://rosanaenafrica.es/'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
+    'link_path' => 'http://rosanaenafrica.es/',
     'router_path' => '',
     'link_title' => 'Rosana Guiza',
     'options' => array(
+      'identifier' => 'main-menu_rosana-guiza:http://rosanaenafrica.es/',
       'attributes' => array(),
       'item_attributes' => array(
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_rosana-guiza:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -876,9 +740,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Salud materno-infantil Bolivia',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_salud-materno-infantil-bolivia:<front>',
     ),
     'module' => 'menu',
@@ -897,9 +759,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Salud materno-infantil',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_salud-materno-infantil:<front>',
     ),
     'module' => 'menu',
@@ -918,9 +778,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Seguridad alimentaria en Zimbabue',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_seguridad-alimentaria-en-zimbabue:<front>',
     ),
     'module' => 'menu',
@@ -931,27 +789,6 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
     'parent_identifier' => 'main-menu_apadrina-una-causa:http:/#',
-  );
-  // Exported menu link: main-menu_sobre-nosotros:node/1046.
-  $menu_links['main-menu_sobre-nosotros:node/1046'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1046',
-    'router_path' => 'node/%',
-    'link_title' => 'Sobre nosotros',
-    'options' => array(
-      'identifier' => 'main-menu_sobre-nosotros:node/1046',
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_concenos:http:/#',
   );
   // Exported menu link: main-menu_solicita-informacin-sobre-el-apadrinamiento:<front>.
   $menu_links['main-menu_solicita-informacin-sobre-el-apadrinamiento:<front>'] = array(
@@ -1009,9 +846,7 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Terremoto en Nepal',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_terremoto-en-nepal:<front>',
     ),
     'module' => 'menu',
@@ -1022,79 +857,6 @@ function wv_spa_main_menu_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
     'parent_identifier' => 'main-menu_ayuda-en-emergencia:http:/#',
-  );
-  // Exported menu link: main-menu_voluntarios:node/1042.
-  $menu_links['main-menu_voluntarios:node/1042'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1042',
-    'router_path' => 'node/%',
-    'link_title' => 'Voluntarios',
-    'options' => array(
-      'devel' => TRUE,
-      'identifier' => 'main-menu_voluntarios:node/1042',
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_concenos:http:/#',
-  );
-  // Exported menu link: main-menu_zimbabue:node/936.
-  $menu_links['main-menu_zimbabue:node/936'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/936',
-    'router_path' => 'node/%',
-    'link_title' => 'Zimbabue',
-    'options' => array(
-      'identifier' => 'main-menu_zimbabue:node/936',
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_nuestros-proyectos:http:/#',
-  );
-  // Exported menu link: main-menu_zimbabwe:node/936.
-  $menu_links['main-menu_zimbabwe:node/936'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/936',
-    'router_path' => 'node/%',
-    'link_title' => 'Zimbabwe',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_zimbabwe:node/936',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_apadrina-un-proyecto:http:/#',
   );
 
   // Translatables
@@ -1109,28 +871,18 @@ function wv_spa_main_menu_menu_default_menu_links() {
   t('Apadrinar a un niño ahora');
   t('Ayuda en emergencia');
   t('Blogs colaboradores');
-  t('Bolivia');
   t('Campañas');
   t('Carlos Sobera');
   t('Colabora');
   t('Conoce más');
   t('Conócenos');
   t('Crisis pueblo Sirio');
-  t('Cómo funciona el apadrinamiento?');
   t('Dona');
   t('Dona material');
-  t('Dónde va tu dinero?');
-  t('Equipo');
-  t('Equipos en la calle');
-  t('España');
-  t('Ghana');
-  t('Guatemala');
   t('Hazte socio');
   t('Home');
   t('Ir al blog');
   t('Los Padrinos');
-  t('Mali');
-  t('Nuestro trabajo');
   t('Nuestros proyectos');
   t('Proyecto España');
   t('Quiero ser mayor');
@@ -1138,13 +890,9 @@ function wv_spa_main_menu_menu_default_menu_links() {
   t('Salud materno-infantil');
   t('Salud materno-infantil Bolivia');
   t('Seguridad alimentaria en Zimbabue');
-  t('Sobre nosotros');
   t('Solicita información sobre el apadrinamiento');
   t('Stop Ablación');
   t('Terremoto en Nepal');
-  t('Voluntarios');
-  t('Zimbabue');
-  t('Zimbabwe');
   t('Últimas noticias');
 
   return $menu_links;
